@@ -47,12 +47,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ILog.cs" />
+    <Compile Include="Log.cs" />
     <Compile Include="MultiplicationCreator.cs" />
     <Compile Include="Patron Observer\IObserver.cs" />
     <Compile Include="Patron Observer\ISubject.cs" />
     <Compile Include="Patron Observer\Observer.cs" />
     <Compile Include="Patron Observer\Results.cs" />
     <Compile Include="Patron Observer\Subject.cs" />
+    <Compile Include="PatronIterator\Collection.cs" />
+    <Compile Include="PatronIterator\ICollection.cs" />
+    <Compile Include="PatronIterator\IIterator.cs" />
+    <Compile Include="PatronIterator\Iterator.cs" />
     <Compile Include="SubtractionCreator.cs" />
     <Compile Include="AdditionCreator.cs" />
     <Compile Include="ICreator.cs" />
