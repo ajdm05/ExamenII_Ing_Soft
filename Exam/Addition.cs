@@ -7,11 +7,11 @@ using Exam;
 
 namespace Exam
 {
-    public class Sum : IOperation
+    public class Addition : IOperation
     {
-        public int Execute(int num1, int num2)
+        public int Execute(int firstAddend, int secondAddend)
         {
-            return num1 + num2;
+            return firstAddend + secondAddend;
         }
     }
 }

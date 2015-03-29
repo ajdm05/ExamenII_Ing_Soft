@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Exam
 {
-    public class Multiply : IOperation
+    public class AdditionCreator  : ICreator
     {
-        public int Execute(int num1, int num2)
+        public IOperation FactoryMethod()
         {
-            return num1 * num2;
+            return new Addition();
         }
     }
 }

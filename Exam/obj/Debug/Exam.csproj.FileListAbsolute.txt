@@ -1,1 +1,7 @@
 C:\Users\Josselyn\Desktop\2015\I_Tri\Ing.De Soft\Exam\Exam\bin\Debug\Exam.exe.config
+C:\Users\Josselyn\Documents\SourceTreeRepositories\Ing. Soft\ExamenII\Exam\bin\Debug\Exam.exe.config
+C:\Users\Josselyn\Documents\SourceTreeRepositories\Ing. Soft\ExamenII\Exam\bin\Debug\Exam.exe
+C:\Users\Josselyn\Documents\SourceTreeRepositories\Ing. Soft\ExamenII\Exam\bin\Debug\Exam.pdb
+C:\Users\Josselyn\Documents\SourceTreeRepositories\Ing. Soft\ExamenII\Exam\obj\Debug\Exam.csprojResolveAssemblyReference.cache
+C:\Users\Josselyn\Documents\SourceTreeRepositories\Ing. Soft\ExamenII\Exam\obj\Debug\Exam.exe
+C:\Users\Josselyn\Documents\SourceTreeRepositories\Ing. Soft\ExamenII\Exam\obj\Debug\Exam.pdb

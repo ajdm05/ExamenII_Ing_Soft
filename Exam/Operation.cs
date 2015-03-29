@@ -8,6 +8,6 @@ namespace Exam
 {
     public interface IOperation
     {
-        int Execute(int num1, int num2);
+        int Execute(int firstElement, int secondElement);
     }
 }

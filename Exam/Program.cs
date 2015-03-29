@@ -10,9 +10,9 @@ namespace Exam
     {
         static void Main(string[] args)
         {
-            var sum = new CreatorSum();
-            var res = new CreatorSubtract();
-            var mult = new CreatorMultiply();
+            var sum = new AdditionCreator();
+            var res = new SubtractionCreator();
+            var mult = new MultiplicationCreator();
 
             Console.WriteLine("Suma: {0}", sum.FactoryMethod().Execute(1, 3));
             Console.WriteLine("Resta: {0}", res.FactoryMethod().Execute(5, 6));
