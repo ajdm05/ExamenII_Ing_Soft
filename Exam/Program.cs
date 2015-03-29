@@ -11,6 +11,8 @@ namespace Exam
             var sum = new AdditionCreator();
             var res = new SubtractionCreator();
             var mult = new MultiplicationCreator();
+            var log = new Log();
+
 
             Console.WriteLine("Factory Method:");
             Console.WriteLine("Suma: {0}", sum.FactoryMethod().Execute(1, 3));
@@ -31,12 +33,19 @@ namespace Exam
             var temp = iter.First();
             while (temp != null)
             {
+                var result = temp.Execute(2, 1);
                 Console.Write(temp.GetType() + ": ");
-                Console.WriteLine(temp.Execute(2, 1));
+                Console.WriteLine(result);
+
+                log.Opertation(temp, result);
+
                 temp = iter.Next();
             }
             Console.WriteLine();
 
+            Console.WriteLine("Log");
+            Console.WriteLine(log.Result);
+            Console.WriteLine();
 
             // Patron Observer
             Console.WriteLine("Patron Observer:");

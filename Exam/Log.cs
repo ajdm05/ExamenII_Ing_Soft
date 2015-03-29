@@ -15,9 +15,9 @@ namespace Exam
             _result = "";
         }
 
-        public void Opertation()
+        public void Opertation(IOperation ioperation, int value)
         {
-            throw new NotImplementedException();
+            _result += string.Format("{0}: {1}{2}", ioperation.GetType().Name, value, Environment.NewLine);
         }
 
 

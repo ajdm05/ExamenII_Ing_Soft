@@ -8,7 +8,7 @@ namespace Exam
 {
     public interface ILog
     {
-        void Opertation();
+        void Opertation(IOperation ioperation, int value);
 
         string Result { get; }
     }
