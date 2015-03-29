@@ -5,3 +5,11 @@ C:\Users\Josselyn\Documents\SourceTreeRepositories\Ing. Soft\ExamenII\Exam\bin\D
 C:\Users\Josselyn\Documents\SourceTreeRepositories\Ing. Soft\ExamenII\Exam\obj\Debug\Exam.csprojResolveAssemblyReference.cache
 C:\Users\Josselyn\Documents\SourceTreeRepositories\Ing. Soft\ExamenII\Exam\obj\Debug\Exam.exe
 C:\Users\Josselyn\Documents\SourceTreeRepositories\Ing. Soft\ExamenII\Exam\obj\Debug\Exam.pdb
+C:\Users\kingdomkaz\Documents\ExamenII_Ing_Soft\Exam\bin\Debug\Exam.exe.config
+C:\Users\kingdomkaz\Documents\ExamenII_Ing_Soft\Exam\bin\Debug\Exam.exe
+C:\Users\kingdomkaz\Documents\ExamenII_Ing_Soft\Exam\bin\Debug\Exam.pdb
+C:\Users\kingdomkaz\Documents\ExamenII_Ing_Soft\Exam\bin\Debug\nunit.framework.dll
+C:\Users\kingdomkaz\Documents\ExamenII_Ing_Soft\Exam\bin\Debug\TechTalk.SpecFlow.dll
+C:\Users\kingdomkaz\Documents\ExamenII_Ing_Soft\Exam\bin\Debug\nunit.framework.xml
+C:\Users\kingdomkaz\Documents\ExamenII_Ing_Soft\Exam\obj\Debug\Exam.exe
+C:\Users\kingdomkaz\Documents\ExamenII_Ing_Soft\Exam\obj\Debug\Exam.pdb
