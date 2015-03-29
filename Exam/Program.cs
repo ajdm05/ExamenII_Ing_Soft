@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Exam
 {
@@ -17,6 +14,24 @@ namespace Exam
             Console.WriteLine("Suma: {0}", sum.FactoryMethod().Execute(1, 3));
             Console.WriteLine("Resta: {0}", res.FactoryMethod().Execute(5, 6));
             Console.WriteLine("Multiplicacion: {0}", mult.FactoryMethod().Execute(4, 3));
+
+            // Patron Observer
+            var listResults = new List<Results>
+            {
+                new Results {NameClass = "Addition", ResultOfClass = sum.FactoryMethod().Execute(1, 3)},
+                new Results {NameClass = "Subtraction", ResultOfClass = res.FactoryMethod().Execute(5, 6)},
+                new Results {NameClass = "Multiplication", ResultOfClass = mult.FactoryMethod().Execute(4, 3)}
+            };
+
+            var observer = new Observer();
+            var subject = new Subject(observer);
+
+            var average = subject.CalculateAverage(listResults);
+
+            Console.WriteLine("Subject: " + average);
+
+            subject.NotifyChange(average);
+            Console.WriteLine("Observer: " + observer.GetAverage());
 
             Console.ReadKey();
         }

@@ -48,6 +48,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MultiplicationCreator.cs" />
+    <Compile Include="Patron Observer\IObserver.cs" />
+    <Compile Include="Patron Observer\ISubject.cs" />
+    <Compile Include="Patron Observer\Observer.cs" />
+    <Compile Include="Patron Observer\Results.cs" />
+    <Compile Include="Patron Observer\Subject.cs" />
     <Compile Include="SubtractionCreator.cs" />
     <Compile Include="AdditionCreator.cs" />
     <Compile Include="ICreator.cs" />
