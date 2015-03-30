@@ -13,6 +13,8 @@ namespace Exam
             var mult = new MultiplicationCreator();
             var log = new Log();
 
+            
+
 
             Console.WriteLine("Factory Method:");
             Console.WriteLine("Suma: {0}", sum.FactoryMethod().Execute(1, 3));
@@ -43,7 +45,7 @@ namespace Exam
             }
             Console.WriteLine();
 
-            Console.WriteLine("Log");
+            Console.WriteLine("Patron Decorador");
             Console.WriteLine(log.Result);
             Console.WriteLine();
 

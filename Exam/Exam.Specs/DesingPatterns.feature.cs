@@ -25,7 +25,7 @@ namespace Exam.Specs
         
         private static TechTalk.SpecFlow.ITestRunner testRunner;
         
-#line 1 "PatronFactoryMethod.feature"
+#line 1 "DesingPatterns.feature"
 #line hidden
         
         [NUnit.Framework.TestFixtureSetUpAttribute()]
@@ -66,11 +66,11 @@ namespace Exam.Specs
         }
         
         [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("Patron Factory Method")]
+        [NUnit.Framework.DescriptionAttribute("Desing Methods")]
         [NUnit.Framework.CategoryAttribute("mytag")]
-        public virtual void PatronFactoryMethod()
+        public virtual void DesingMethods()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Patron Factory Method", new string[] {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Desing Methods", new string[] {
                         "mytag"});
 #line 7
 this.ScenarioSetup(scenarioInfo);
@@ -95,16 +95,28 @@ this.ScenarioSetup(scenarioInfo);
  testRunner.Given("I have the following data from a file", ((string)(null)), table1, "Given ");
 #line 13
  testRunner.When("I call Factory Method", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 14
+ testRunner.And("I call Iterator Method", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 15
+ testRunner.And("I call Observer Method", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             TechTalk.SpecFlow.Table table2 = new TechTalk.SpecFlow.Table(new string[] {
-                        "Result"});
+                        "FactoryResult",
+                        "IteratorResult",
+                        "ObserverResult"});
             table2.AddRow(new string[] {
-                        "4"});
+                        "4",
+                        "3",
+                        "5"});
             table2.AddRow(new string[] {
-                        "-1"});
+                        "-1",
+                        "1",
+                        "5"});
             table2.AddRow(new string[] {
-                        "12"});
-#line 14
+                        "12",
+                        "2",
+                        ""});
+#line 16
  testRunner.Then("the result should be", ((string)(null)), table2, "Then ");
 #line hidden
             this.ScenarioCleanup();
